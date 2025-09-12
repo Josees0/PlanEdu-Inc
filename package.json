@@ -1,0 +1,12 @@
+{
+  "name": "plano-estudos",
+  "version": "1.0.0",
+  "description": "App de plano de estudos",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^28.2.1"
+  }
+}

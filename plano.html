@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <title>Aulas e Biblioteca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-box">
+      <button class="home" onclick="window.location.href='index.html'">
+        <img src="assets/logo.png" alt="Logo" class="logo">
+      </button>
+    </div>
+  </header>
+
+  <main class="conteudo-geral">
+    <h1>Aulas e Conteúdos</h1>
+
+    <section class="secao">
+      <h2>Disciplinas</h2>
+      <div class="cards-container">
+        <div class="card-aula">
+          <h3>Matemática e Suas Tecnologias</h3>
+          <button class="mid-button">Acessar</button>
+        </div>
+        <div class="card-aula">
+          <h3>Linguagens, Códigos e Suas Tecnologias</h3>
+          <button class="mid-button">Acessar</button>
+        </div>
+        <div class="card-aula">
+          <h3>Ciências da Natureza e Suas Tecnologias</h3>
+          <button class="mid-button">Acessar</button>
+        </div>
+        <div class="card-aula">
+          <h3>Ciências Humanas e Sociais Aplicadas</h3>
+          <button class="mid-button">Acessar</button>
+      </div>
+    </section>
+
+   
+    <section class="secao">
+      <h2>Simulados</h2>
+      <ul class="lista-conteudo">
+        <form method="get" action="assets/utfpr.pdf">
+        <li>Prova UTFPR 2024/2</li></form>
+        <form method="get" action="assets/enem.pdf">
+        <li>Exercícios ENEM 2024</li></form>
+      </ul>
+    </section>
+
+    
+    <section class="secao">
+      <h2>Literatura</h2>
+      <div class="biblioteca">
+        <div class="livro">
+          <img src="assets/livro1.jpg" alt="Livro 1">
+          <p>Nihonjin - Oscar Nakasato </p>
+          <form method="get" action="assets/livro1.pdf">
+          <button class="mid-button">Baixar</button></form>
+        </div>
+        <div class="livro">
+          <img src="assets/livro2.jpg" alt="Livro 2">
+          <p>Memórias Póstumas de Brás Cubas - Machado de Assis</p>
+          <form method="get" action="assets/livro2.pdf">
+          <button class="mid-button">Baixar</button></form>
+        </div>
+        <div class="livro">
+          <img src="assets/livro3.jpg" alt="Livro 3">
+          <p>Felicidade Clandestina - Clarice Lispector</p>
+          <form method="get" action="assets/livro3.pdf">
+          <button class="mid-button">Baixar</button></form>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

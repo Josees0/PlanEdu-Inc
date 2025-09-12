@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <title>Plano de Estudos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-box">
+      <button class="home"> <img src="assets/logo.png" alt="Logo" class="logo"></button>
+      <div class="actions">
+        <button onclick="alert('Boo👻')">Criar Conta</button>
+        <button onclick="alert('👻ooB')">Logar</button>
+      </div>
+    </div>
+  </header>
+  <main>
+  <section id="first-block">
+    <div class="content">
+      <h1>Seu plano de estudos personalizado para universidade dos sonhos</h1>
+      <p>Organize seus estudos de forma simples e eficiente.</p>
+      <button class="mid-button" onclick="animateAndRedirect()">CRIAR MEU PRIMEIRO PLANO</button>
+    </div>
+    <div class="arrow-down" onclick="scrollToSecond()">↓</div>
+  </section>
+
+<section id="second-block">
+<div class="cards-container">
+  <div class="info-card">
+    <h2>Como funciona</h2>
+    <p>O plano de estudos funciona com base em sua preferência, disponibilizando um sistema eficiente e confortável de estudo baseado em sua escolha de curso ou concurso.</p>
+  </div>
+  <div class="info-card">
+    <h2>Preferências</h2>
+    <p>Confira as instituições atualmente disponíveis e filtre por curso, tipo de vestibular ou concurso</p>
+    <p><li><img height="35px"src="assets/utfpr.png"></li></p>
+    <p><li><img height="40px"src="assets/utfrj.png"></li></p>
+    <p><li><img height="35px"src="assets/usp.png"></li></p>
+    <p><li><img height="40px"src="assets/unifesp.png"></li></p>
+  </div>
+    <div class="info-card">
+    <h2>Materiais</h2>
+    <p>Em seu plano de estudo você tem diversas opções de materias de estudo para melhor entendimento, como vídeo-aulas, manuscritos, simulados, livros acadêmicos etc.</p>
+  </div>
+  <div class="parceria">
+    <h4><img height="45px" width="50px"src="assets/atena's.jpg"> Parceria com a Cooperativa Atena's Books.</h4>
+  </div>
+</div>
+</section>
+</main>
+  <script src="renderer.js"></script>
+</body>
+</html>
