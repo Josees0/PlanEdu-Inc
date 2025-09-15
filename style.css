@@ -305,3 +305,19 @@ main .content {
   height: auto;
   border-radius: 10px;
 }
+
+
+/* Animações adicionais */
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.6s ease forwards;
+}
+
+.etapa {
+  margin-bottom: 30px;
+}
