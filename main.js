@@ -33,6 +33,7 @@ function scrollToSecond() {
     seta.classList.remove("clicked");
   }, 150);
 }
+
 function atualizarCursos() {
   const universidade = document.getElementById("instituicao").value;
   const cursoSelect = document.getElementById("curso");
