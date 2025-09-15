@@ -178,7 +178,6 @@ main .content {
   color: white;
 }
 
-/*criar-plano*/
 
 .plano-container {
   padding: 40px;
@@ -253,7 +252,6 @@ main .content {
    transform: scale(1.2);
 }
 
-/*plano*/
 
 .conteudo-geral {
   padding: 40px;
@@ -307,7 +305,6 @@ main .content {
 }
 
 
-/* Animações adicionais */
 .fade-out {
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -318,6 +315,6 @@ main .content {
   animation: fadeIn 0.6s ease forwards;
 }
 
-.etapa {
+.etapamerda {
   margin-bottom: 30px;
 }
