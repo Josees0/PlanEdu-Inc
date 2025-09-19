@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  background-color: #1e3678;
+  background-color: #000000;
   padding: 10px 20px;
   color: white;
 }
@@ -45,7 +45,7 @@ header {
   margin-left: 10px;
   font-size: 16.25px;
   padding: 8px 16px;
-  background-color: #f48112;
+  background-color: #ff914d;
   border: none;
   color: white;
   cursor: pointer;
@@ -54,12 +54,12 @@ header {
 
 .actions button:hover {
   background-color: white;
-  color: #f48112;
+  color: black;
   transition: 0.5s;
 }
 
 main .content {
-  color: white;
+  color: black;
   padding: 20px;
   text-align: center;
   font-size: 30px;
@@ -84,8 +84,8 @@ main .content {
    transform: scale(1.2);
 }
 #first-block {
-  height: 92vh;
-  background-color: #398be2;
+  height: 100vh;
+  background-color: white;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -95,7 +95,7 @@ main .content {
 
 .arrow-down {
   position: absolute;
-  bottom: 20px;
+  bottom: 92px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 8rem;
@@ -118,7 +118,7 @@ main .content {
   font-size: 22px;
   opacity: 0;
   transform: translateY(100px);
-  transition: all 0.8s ease;
+  transition: all 0.5s ease;
 }
 
 #second-block.reveal {
@@ -192,7 +192,7 @@ main .content {
 
 .plano-container select,
 .plano-container input[type="text"] {
-  color: #0044ff;
+  color: #0e121c;
   font-size: 20px;
   width: 100%;
   padding: 10px;
@@ -252,7 +252,12 @@ main .content {
    transform: scale(1.2);
 }
 
-
+a:-webkit-any-link{
+  text-decoration: none;
+}
+a:visited{
+  color: transparent;
+}
 .conteudo-geral {
   padding: 40px;
   max-width: 1000px;
@@ -300,10 +305,9 @@ main .content {
 
 .livro img {
   width: 100%;
-  height: auto;
+  height: autdddddo;
   border-radius: 10px;
 }
-
 
 .fade-out {
   opacity: 0;
