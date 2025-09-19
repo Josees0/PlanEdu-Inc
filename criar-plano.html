@@ -25,17 +25,17 @@
     <div id="etapa1" class="etapa">
       <label for="choose">Escolha a instituição:</label>
         <select id="instituicao" onchange="mostrarEtapa('etapa2')">
-            <option value="">-- Selecione --</option>
-            <option value="utfpr">UTFPR</option>
-            <option value="ufrj">UFRJ</option>
-            <option value="usp">USP</option>
-            <option value="unifesp">UNIFESP</option>
+          <option value="">-- Selecione --</option>
+          <option value="utfpr">UTFPR</option>
+          <option value="ufrj">UFRJ</option>
+          <option value="usp">USP</option>
+          <option value="unifesp">UNIFESP</option>
         </select>
     </div>
 
     <div id="etapa2" class="etapa" style="display:none">
       <label for="curso">Escolha o curso:</label>
-      <select id="curso">
+        <select id="curso" onchange="mostrarEtapa('etapa3')">
           <option value="">-- Escolha a instituição primeiro --</option>
       </select>
     </div>
@@ -54,8 +54,7 @@
           <div class="dia" data-dia="sab">Sáb</div>
         </div>
       </div>
-
-      <div class="horarios">
+      <div class="horarios" onchange="mostrarEtapa('etapa3')">
         <p>Horário preferido:</p>
         <input type="time" id="inicio">
         <span>até</span>
