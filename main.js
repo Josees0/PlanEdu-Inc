@@ -84,6 +84,7 @@ function atualizarCursos() {
       "Pedagogia"
     ];
   }
+  
 
   if (cursos.length === 0) {
     const opt = document.createElement("option");
